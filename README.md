@@ -34,18 +34,18 @@ Sistema completo para **gestão de clientes, agendamentos e operação de barbea
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/barbearia-app.git
-cd barbearia-app
+git clone https://github.com/v1cferr/barber.git
+cd barber
 
 # 2. Instale as dependências
-npm install
+pnpm install
 
 # 3. Crie o arquivo de variáveis de ambiente
 cp .env.example .env.local
 # Insira as credenciais do Supabase (URL + Anon Key)
 
-# 4. Rode o projeto
-npm run dev
+# 4. Rode o projeto com Turbopack (recomendado)
+pnpm run dev
 ```
 
 ## 📂 Estrutura Base (provisória)
